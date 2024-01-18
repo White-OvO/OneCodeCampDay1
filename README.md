@@ -12,4 +12,4 @@
 
 <h1> Html update to submition form 2 </h1>
 
-![Screen Shot 2024-01-17 at 7 40 02 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/d2cba668-2bdc-45e5-b15d-42a83af6ef97)
+![Screen Shot 2024-01-17 at 9 33 08 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/45962acb-bb92-4762-a123-a7694d97385d)
