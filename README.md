@@ -18,4 +18,4 @@
 <h1> profolio push </h1>
 
 
-![Screenshot 1 -01](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/e8e4f26a-3364-4b2e-b6d8-9572fa4b7359)
+![Screen Shot 2024-01-18 at 9 54 22 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/dc436378-a307-4d7f-9ca8-1c1352b03b36)
