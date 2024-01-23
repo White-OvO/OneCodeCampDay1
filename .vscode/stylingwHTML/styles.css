@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+/* now we are going to target the font example */
+.font-example {
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: italic;
+} 
+
+.text-alignment {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+.spacing { 
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+
+.border { 
+    border: 2px black solid;
+    border-color: purple;
+    border-width: 5px;
+    border-style: dashed; 
+}
+
+.shadow { 
+    /* shadow size and shadow*/
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
