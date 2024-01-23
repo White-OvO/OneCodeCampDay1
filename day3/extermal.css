@@ -2,3 +2,62 @@ p {
     color: blue; 
     background-color:beige;
 }
+/*
+<!-- the p is the target which the sectpr changes color to text -->
+*/
+
+.paragraph { 
+    color: green;
+}
+
+.unique {
+    font-weight: bold;
+    color: black
+}
+[href] {
+    color: red;
+}
+
+
+/* 
+!-- because of the specific input  text it comes out yellow even if it were on top --> 
+*/
+[type="text"]{ 
+    color: red;
+
+}
+
+input[type="text"] { 
+    color: yellow;
+}
+
+
+
+h2, h3, textarea { 
+    color:lightpink;
+} 
+/* unique and heading class */
+#unique,.heading {
+    font-size: 30px;
+}
+
+
+/* pseudo-class */
+
+/* hover over an element and change the style */ 
+
+a:hover { 
+    background-color: red;
+}
+/* change the color of the hovering over the link color */ 
+
+
+
+h3::before, h3::after { content: " ’ ";
+ }
+
+/* change the first color fo the word in the selected header */ 
+
+h2::first-letter { 
+    color: red;
+}
