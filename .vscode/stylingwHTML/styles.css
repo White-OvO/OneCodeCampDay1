@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+body.html{ 
+    height: 100%;
+    margin: 0;
 
+}
+
+* {
+    margin: 0;
+    }
+
+    
+body, html { 
+    height: 100%;
+}
+
+
+.bg{ 
+    background-image: url("photo-1703201383936-26bbe6c5fc32.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* THis will cover the whole screen*/
+    height : 100%
+
+}
 /* now we are going to target the font example */
 .font-example {
     font-family: "Inter";
