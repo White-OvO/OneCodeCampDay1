@@ -19,3 +19,10 @@
 
 
 ![Screen Shot 2024-01-18 at 9 54 22 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/dc436378-a307-4d7f-9ca8-1c1352b03b36)
+
+
+<h1> Css Style and fonts </h1>
+![Screen Shot 2024-01-22 at 9 08 07 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/74f45a3c-034d-4508-b04c-446f38a5238c)
+
+
+
