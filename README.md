@@ -38,7 +38,7 @@
 
 <h2> Day 9 accivities </h2>
 
-![Screen Shot 2024-02-05 at 4 03 16 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/14e58508-a372-463a-b8ff-556971710679)
-![Screen Shot 2024-02-05 at 4 03 23 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/665da060-e96a-4245-ba58-e5614d0c31a5)
 
+![Screen Shot 2024-02-08 at 8 05 08 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/57443acd-3fb3-44f2-8b6f-2379b8625ac8)
+![Screen Shot 2024-02-08 at 8 05 13 PM](https://github.com/White-OvO/OneCodeCampDay1/assets/120700219/5bf5d8f1-43b7-4d6a-a3ed-e9c4ee10ad4a)
 
