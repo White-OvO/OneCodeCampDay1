@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameters, Arguments </title>
+</head>
+<body>
+    <script> 
+    // javascript uses parameters like variables ; a set of instructions but sometimes
+    // there is specific type of reipes for the meal 
+
+    function greet(name) { 
+        console.log( "hello " + name ) ; 
+    } 
+
+    greet("Chris"); 
+    greet("mark");
+
+    // will set the vaibale with diffrent values . a place holder
+
+
+    function multiple(a,b) { 
+        console.log(a * b) ; 
+
+
+    }
+
+//diffrent result for diffrent values 
+    multiple(3,2 );  // ans: 6 
+    multiple(5 , 5); // 25 
+                
+// a function is a the console that will do the math or linking of strings 
+
+function sum (a,b){ 
+    return a + b; 
+}
+
+   console.log(sum (10,2));      // will print 12 
+
+   console.log(typeof sum (0,2))  ;
+   console.log(typeof multiple(0,2))  ;   // this will print undefined 
+
+    let operation = sum(3,2); 
+    console.log(operation);   // will return 5 
+
+    let opreation_two = multiple(5,5) + 10; 
+    console.log(opreation_two) ;  // returns Nan prints the products and what is being defined 
+
+
+
+    
+
+
+
+
+
+                
+    
+    
+    
+    </script>
+    
+</body>
+</html>

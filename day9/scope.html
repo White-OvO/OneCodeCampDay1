@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scope </title>
+</head>
+<body>
+    <script> 
+    // contacts in variables
+
+    // a rule book is waht is going to get used . 
+    
+    // global scope ( global variables )
+    //varibales outsde the function but can be accessed anywhere
+   let globalVariable = " I am global "; 
+
+    function global () { 
+        console.log(globalVariable);
+
+    }
+global () ;
+
+
+function localScope() { 
+
+ let localVar = " I am local ";
+
+ console.log(localVar);
+
+}    // local scope'
+    localScope(); 
+    console.log(localVar);
+
+
+    </script>
+</body>
+</html>

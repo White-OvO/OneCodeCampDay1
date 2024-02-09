@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* default */
+        .static {
+            position: static; /* doesnt change anything, already static by default */
+            background-color: lightblue;
+            width: 200px;
+            padding: 10px;
+        }
+
+        /* based on its original (static) position */
+        .relative {
+            position: relative;
+            background-color: lightgreen;
+            width: 200px;
+            padding: 10px;
+            /* top, right, bottom, left */
+            top: 20px; /* equal to: bottom: -20px */
+            right: 20px; /* equal to: left: -20px */
+        }
+
+        /* based on its parent */
+        .absolute {
+            position: absolute;
+            background-color: lightgreen;
+            width: 200px;
+            padding: 10px;
+            top: 10px;
+        }
+
+
+        .fixed {
+            position: fixed;
+            background-color: lightpink;
+            width: 200px;
+            padding: 10px;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        /* by default, its static until you scroll past the content, it turns to fixed */
+        .sticky {
+            position: sticky;
+            background-color: lightcyan;
+            width: 200px;
+            padding: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positioning Elements Example</h1>
+
+    <div class="static">Static Position</div>
+    <div class="relative">Relative Position</div>
+    <div class="absolute">Absolute Position</div>
+    <div class="fixed">Fixed Position</div>
+    <div class="sticky">Sticky Position</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eius laboriosam officia, voluptates qui tempore quod quisquam veritatis excepturi voluptate, eveniet deleniti, ut dicta. Cumque, culpa minima quas sed animi deserunt perspiciatis?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eius laboriosam officia, voluptates qui tempore quod quisquam veritatis excepturi voluptate, eveniet deleniti, ut dicta. Cumque, culpa minima quas sed animi deserunt perspiciatis?</p>
+</body>
+</html>
