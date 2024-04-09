@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexStyleVideo.css"> 
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="hero-header" >
+        <div class="wrapper"> 
+            <header> 
+                <div class="logo"> 
+                    <i class="fa-solid fa-c"> </i>
+
+                    <div class="logo-text"> Giovanie Gonzalez</div>
+                    </div>
+                    <nav> 
+                      
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="topnav">
+                        <a class="active" href="#home">Home</a>
+                        <a href="#profolio">Profolio</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                      </div>
+
+
+<!--                       
+                            <ul class="navlinks">
+                                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                                <li><a href="#"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                                <li><a href="#"><i class="></i> Resume</a></li>
+                                <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+                            </ul> -->
+                            
+                    </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="IMG_0073.JPG" alt="profile pic" > 
+
+                </div>
+                <div class="hero-text" > 
+                    <h5> Hi I am  <span class=" "> Software Developer </span></h5>
+                    <h1> Giovanie Gonzalez </h1>
+                    
+                    <p> My hobbies include coding, networking, building  websites ,etc (Theres sdo much of me to tell ).
+                        I was origionaly born and raised in California where i finished my high school diploma and later moved 
+                        to Las Vegas. I build websites from the back to the front end. Mentored by promineo tech for my back back-end
+                        building skills I also relay on code devs for my front end knowledge. My passion for computer science started at 
+                        the college of southern nevada where i learned what problem solving meant and how it is used in every day enviorment.
+                        With a foot in the door , I have not yet stopped learning about programs and problem solving.Studying computer science 
+                        at College of southern nevada helped me get into a boot camp at promineo tech. where i learned back end fundimentals. 
+                        Promineo tech later introduced me to networking oportunities where i meet code devs. At code devs I learned front end langues.
+                        My knowledge is still  growing, but I've been developing software for years now.
+                    </p>
+                    <div class="btn-group">
+                        <a class="btn line-btn-dark btn-icon btn-radius" href="ScreenShot.jpg" title="Download CV" download>
+                            <i class="fa fa-download"></i> Download Back-end Certification
+                        </a>
+
+
+
+                        <a class="btn line-btn-dark btn-icon btn-radius" href="chrisresume.pdf" title="Download CV" download>
+                            <i class="fa fa-download"></i> Download Resume
+                        </a>
+                        
+                        
+
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script> 
+     var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","UX Designer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+    </script>
+</body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Programing Skill Bar </title>
+    <link rel="stylesheet" href="justanothertest.css" />
+  </head>
+<body>
+    <div class="container2">
+      <h2>Skill Bar Design</h2>
+      <div class="skills2">
+        <span class="Name">HTML</span>
+        <div class="percent">
+          <div class="progress" style="width: 70%"></div>
+        </div>
+        <span class="value">80%</span>
+      </div>
+      <div class="skills2">
+        <span class="Name">CSS</span>
+        <div class="percent">
+          <div class="progress" style="width: 65%"></div>
+        </div>
+        <span class="value">75%</span>
+      </div>
+      <div class="skills2">
+        <span class="Name">Javascript</span>
+        <div class="percent">
+          <div class="progress" style="width: 75%"></div>
+        </div>
+        <span class="value">75%</span>
+      </div>
+      <div class="skills2">
+        <span class="Name">Java</span>
+        <div class="percent">
+          <div class="progress" style="width: 85%"></div>
+        </div>
+        <span class="value">80%</span>
+      </div>
+      <div class="skills2">
+        <span class="Name">Python</span>
+        <div class="percent">
+          <div class="progress" style="width: 65%"></div>
+        </div>
+        <span class="value">70%</span>
+      </div>
+      <div class="skills2">
+        <span class="Name">C++</span>
+        <div class="percent">
+          <div class="progress" style="width: 65%"></div>
+        </div>
+        <span class="value">65%</span>
+      </div>
+    </div>
+ 
+  </body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Effect</title>
+    <link rel="stylesheet" href="indexStyleVideo.css">
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+    <spa class="drop"> 
+        
+
+    </span>
+    <span class="smalldrop">
+        
+    </span>
+    <span class="leftdrop">
+
+    </span>
+
+    <span class="rightdrop">
+        
+    </span>
+
+
+
+    
+</body>
+</html>
+
+</html>
+
+
+
+

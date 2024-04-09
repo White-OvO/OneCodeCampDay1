@@ -1,0 +1,11 @@
+.container { 
+    border: 1px solid blue;
+} 
+.row { 
+    border: 1px solid green;
+    margin: 5px;
+}
+.col-sm-6 { 
+    border: 1px solid red;
+    margin: 5px;
+}
